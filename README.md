@@ -4,7 +4,7 @@
 
 This module creates a new ACME registration for [letsencrypt](https://letsencrypt.org) and the required private key.
 
-It is useful when using multiple modules (eg. [aws-acm-letsencrypt](https://github.com/goci-io/aws-acm-letsencrypt)) to request new certificates without creating multiple letsencrypt accounts. This is the recommended usage from letsencrypt.
+It is useful when using multiple modules (eg. [aws-acm-letsencrypt](https://github.com/goci-io/aws-acm-letsencrypt)) to request new certificates without creating multiple letsencrypt accounts. This is the recommended use of letsencrypt.
 
 ## Usage
 
