@@ -7,11 +7,10 @@ terraform {
 }
 
 locals {
-  acme_directory = var.acme_prod ? "" : "acme-v02" : "acme-staging-v02"
+  acme_directory = var.acme_prod ? "" : "-staging"
 }
 
 provider "acme" {
   version    = "~> 1.5"
-  server_url = "https://${local.acme_directory}.api.letsencrypt.org/directory"
+  server_url = "https://acme${local.acme_directory}-v02.api.letsencrypt.org/directory"
 }
-
