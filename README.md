@@ -4,12 +4,14 @@
 
 This module creates a new ACME registration for [letsencrypt](https://letsencrypt.org) and the required private key.
 
+It is useful when using multiple modules (eg. [aws-acm-letsencrypt](https://github.com/goci-io/aws-acm-letsencrypt)) to request new certificates without creating multiple letsencrypt accounts. This is the recommended usage from letsencrypt.
+
 ## Usage
 
 ```hcl
 module "acme" {
   source            = "git::https://github.com/goci-io/letsencrypt-account.git?ref=tags/<latest-version>"
-  certificate_email = "certs<at>@goci.io" 
+  certificate_email = "your-certs@domain.io"
 }
 ```
 
