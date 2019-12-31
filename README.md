@@ -20,3 +20,9 @@ module "acme" {
 | certificate_email | E-Mail address for the letsencrypt Account | - |
 | acme_prod | Use the production directory (otherwise certs may be untrusted) | true |
 | enabled | If set to false no resources will be created | true |
+
+### Outputs
+
+| Name | Description |
+|-----------------|----------------------------------------|
+| account_key_pem | Letsencrypt private key in pem format to request new certificates |
