@@ -2,6 +2,8 @@
 
 #### Maintained by [@goci-io/prp-terraform](https://github.com/orgs/goci-io/teams/prp-terraform)
 
+![Terraform Validate](https://github.com/goci-io/letsencrypt-account/workflows/Terraform%20Validate/badge.svg)
+
 This module creates a new ACME registration for [letsencrypt](https://letsencrypt.org) and the required private key.
 
 It is useful when using multiple modules (eg. [aws-acm-letsencrypt](https://github.com/goci-io/aws-acm-letsencrypt)) to request new certificates without creating multiple letsencrypt accounts. This is the recommended use of letsencrypt.
