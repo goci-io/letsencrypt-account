@@ -2,7 +2,7 @@
 
 #### Maintained by [@goci-io/prp-terraform](https://github.com/orgs/goci-io/teams/prp-terraform)
 
-![Terraform Validate](https://github.com/goci-io/letsencrypt-account/workflows/Terraform%20Validate/badge.svg)
+![terraform](https://github.com/goci-io/letsencrypt-account/workflows/terraform/badge.svg?branch=master)
 
 This module creates a new ACME registration for [letsencrypt](https://letsencrypt.org) and the required private key.
 
